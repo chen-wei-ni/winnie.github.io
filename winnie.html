@@ -1,0 +1,314 @@
+<html lang="eg">
+<head>
+	<link href="bootstrap-4.3.1/css/bootstrap.css" rel="stylesheet">
+	<link href="fontawesome-free-5.11.2/css/all.css" rel="stylesheet">
+	<link href="css/wupopa.css" rel="stylesheet" media="screen and (min-width: 960px)">
+	<link href="css/wupopa_phone.css" rel="stylesheet" media="screen and (max-width: 959px)">
+	<script src="js/jquery-3.4.1.js"></script> 
+	
+	<script>
+		$('document').ready(function() {
+			$('nav ul li a').hover(function() {
+				$('.show::after').show();
+			});
+		
+		});
+	</script>
+</head>
+<body>
+<header class="container-fluid clearfix">
+	<div class="inner_header">
+		<div class="logo">
+			<a href="#">WUPOPA<span>HOTEL & SPA</span></a>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="#" class="menu" style="color:#ffd369">Home</a></li>
+				<li><a href="#" class="show">About</a></li>
+				<li><a href="#" class="show">Rooms</a></li>
+				<li><a href="#" class="show">Pages</a></li>
+				<li><a href="#" class="show">News</a></li>
+				<li><a href="#" class="show">Contact</a></li>
+			</ul>
+			<div class="btn_right ">
+				<a href="#">Make a Reseveration</a>
+			</div>
+		</nav>
+	</div>
+</header>
+<div class="main">
+	<div id="overlay">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h1 class="text-center">A Luxury Stay</h1>
+				</div>
+			</div>
+			<div class="search ">
+				<div class="row">
+					<div class="form col-lg-12">
+						<form action="#">
+							<h4>Check Availability</h4>
+							<div class="block">
+								<p>Form</p>
+								<input type="date" name="bday" value="dd/mm/yyyy">
+								<i class="far fa-calendar-alt"></i>
+							</div>
+							<div class="block">
+								<p>To</p>
+								<input type="date" name="bday" value="dd/mm/yyyy">
+								<i class="far fa-calendar-alt"></i>
+							</div>
+							<div class="block2 clearfix">
+								<div class="qtn">
+									<p>Adults</p>
+									<div class="add_number">
+										<span class="qtnbtn">-</span>
+										<input type="text" value="0"></input>
+										<span class="qtnbtn">+</span>
+									</div>
+								</div>
+								<div class="qtn">
+									<p>Children</p>
+									<div class="add_number">
+										<span class="qtnbtn">-</span>
+										<input type="text" value="0"></input>
+										<span class="qtnbtn">+</span>
+									</div>
+								</div>
+								<div class="qtn">
+									<p>Rooms</p>
+									<div class="add_number">
+										<span class="qtnbtn">-</span>
+										<input type="text" value="0"></input>
+										<span class="qtnbtn">+</span>
+									</div>
+								</div>
+							</div>
+							<div class="block">
+								<p>Rooms</p>
+								<div class="select">
+									<select class="suit_select">
+										<option>Master Suit</option>
+										<option>Double Room</option>
+										<option>Single Room</option>
+										<option>Special Room</option>
+									</select>
+								</div>
+							</div>
+							<div class="search_btn2">
+								<button type="submit" >GO</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="article">
+	<div class="outborder container">
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="text">
+					<h4>A MEMORABLE HOLLIDAY</h4>
+					<h2>A great stay in a lovely hotel.</h2>
+					<article>Lorem ipsum dolor sit amet, 
+					consectetur adipiscing elit, sed do 
+					eiusmod tempor incididunt ut labore et 
+					dolore magna aliqua. Quis ipsum suspendisse 
+					ultrices gravida. Risus commodo viverra maecenas.
+					Donec in sodales dui, a blandit nunc. Pellentesque
+					id eros venenatis, sollicitudin neque sodales,
+					vehicula nibh. Nam massa odio, porttitor vitae efficitur non,
+					ultricies volutpat tellus.
+					</article>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="text2">
+					<article>Dolor sit amet, consectetur adipiscing elit,
+					sed do eiusmod tempor incididunt ut labore et dolore magna 
+					aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra.
+					</article>
+					<button type="submit">Make a Reservation</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="pic">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-6 left">
+				<div id="overlay2">
+					<div class="deep">
+						<div class="title">
+							<h2>Luxury Suite Room</h2>
+							<p>FROM $399</p>
+						</div>
+						<div class="icon">
+							<i class="fas fa-tv"></i>
+							<i class="fas fa-wifi"></i>
+							<i class="fas fa-swimming-pool"></i>
+							<i class="fas fa-map-marker-alt"></i>
+							<i class="fas fa-unlock"></i>
+						</div>
+						<div class="btn">
+							<button class="res_btn">Make a Reservation</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 right">
+				<div id="overlay2">
+					<div class="deep">
+						<div class="title">
+							<h2>Infinity Pool</h2>
+							<p>FOR ALL OUR GUESTS</p>
+						</div>
+						<div class="btn">
+							<button class="res_btn">Make a Reservation</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="guestbook clearfix">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="feedback">
+					<h1>Guestbook</h1>
+					<p>02/02/2019</p>
+					<h5>We loved our stay</h5>
+					<div class="rating">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</div>
+					<article>Lorem ipsum dolor sit amet,
+					consectetur adipiselit. Vivamus libero mauris,
+					bibendum eget sapien ac, ultrices rhoncus ipsum.
+					Donec nec sapien in urna fermentum ornare.
+					</article>
+					<div class="customer">
+						<img src="../style/catandfrog_1.png">
+						<div class="name clearfix">
+							<h6>KELLY</h6>
+							<span>Tawian</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="feedback">
+					<p>02/06/2019</p>
+					<h5>I will come back again</h5>
+					<div class="rating">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</div>
+					<article>Ipsum dolor sit amet, consectetur adipiselit. 
+					Vivamus libero mauris, bibendum eget sapien ac, ultrices rhoncus ipsum.
+					Donec nec sapien in urna fermentum ornare.
+					</article>
+					<div class="customer">
+						<img src="../style/coffee-983955_1920.jpg">
+						<div class="name clearfix">
+							<h6>Mark Smith</h6>
+							<span>HongKong</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="video_bg"></div>
+<div class="video container">
+	<div class="video_text">
+		<a href="#"><i class="fas fa-play"></i></a>
+	</div>
+</div>
+<div class="pic4">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-sm-12">
+				<div class="about_text">
+					<h2>“Customers love our facilities”</h2>
+					<article>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Vivamus libero mauris, bibendum eget sapien ac, ultrices rhoncus ipsum.
+					Donec nec sapien in urna fermentum ornare. Morbi vel ultrices leo. Sed eu turpis eu arcu vehicula fringilla ut vitae orci.
+					Suspendisse maximus malesuada.</article>
+					<button>Make a Reservation</button>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="about_pic">
+					<div class="img"><img src="../style/pic1.jpg"></div>
+					<div class="img"><img src="../style/pic2.jpg"></div>
+					<div class="img"><img src="../style/pic3.jpg"></div>
+					<div class="img"><img src="../style/pic4.jpg"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4">
+				<div>
+					<div class="logo">
+						<a href="#">WUPOPA<span>HOTEL & SPA</span></a>
+					</div>
+					<p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div>
+					<h6>Newsletter</h6>
+					<div class="search2">
+						<input type="text" placeholder="Your Email Here"></input>
+						<button type="submit">Subscribe</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div>
+					<h6>Contact Info</h6>
+					<ul>
+						<li><i class="fas fa-map-marker-alt"></i>1525 Boring Lane,</li>
+							<span>Los Angeles, CA</span><br><br>
+						<li><i class="fas fa-phone"></i>+1 (603)535-4592</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<footer>
+	<div class="row">
+		<div class="link col-lg-12">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Rooms</a></li>
+				<li><a href="#">Facilities</a></li>
+				<li><a href="#">News</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+	<div class="col-lg-12"><p class="text-center">Copyright ©2019 All rights reserved | This template is made with  by Colorlib</p></div>
+	</div>
+</footer>
+</body>
+</html>
