@@ -74,7 +74,7 @@ header .btn_right {
 /*背景照片*/
 
 div.main {
-	background:black url('../../style/hotel-idyllic.jpg') top center no-repeat;
+	background:black url('../style/hotel-idyllic.jpg') top center no-repeat;
 	background-size:cover;
 }
 
@@ -188,12 +188,12 @@ div.text2 {
 
 
 div.pic .left {
-	background: url('../../style/hotel-idyllic.jpg')top center no-repeat;
+	background: url('../style/hotel-idyllic.jpg')top center no-repeat;
 	background-size:cover;
 	padding:0;
 }
 div.pic .right {
-	background:#ccc url('../../style/hotel_banner.jpg')top center no-repeat;
+	background:#ccc url('../style/hotel_banner.jpg')top center no-repeat;
 	background-size:cover;
 	padding:0;
 	position:relative;
@@ -290,12 +290,12 @@ div.icon {
 /*video_bg*/
 
 div.video_bg {
-	background: #ccc url('../../style/hroom (2).jpg') top center no-repeat;
+	background: #ccc url('../style/hroom (2).jpg') top center no-repeat;
 	background-size:cover;
 	padding:300px;
 }
 div.video {
-	background: url('../../style/hotelroom.jpg') top center no-repeat;
+	background: url('../style/hotelroom.jpg') top center no-repeat;
 	background-size:cover;
 	height:650px;
 	position:relative;
