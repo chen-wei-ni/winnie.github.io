@@ -1,6 +1,6 @@
 body {
 	font-family:Ubuntu Medium;
-	margin:0 auto;
+	margin:0;
 }
 
 .clearfix::after{   /*清除float*/
