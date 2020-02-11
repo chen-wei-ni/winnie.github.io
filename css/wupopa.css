@@ -414,7 +414,7 @@ footer {
 	background-color:#000;
 }
 footer ul {
-	float:right;
+	text-align:center;
 	margin:0;
 	padding:30px 0;
 }
@@ -430,6 +430,12 @@ footer ul li a {
 	position:relative;
 	display:inline-block;
 	padding: 5px 0;
+	transition: color 0.3s;
+}
+footer ul li a:hover {
+	color:#ececec;
+	text-decoration:none;
+	transition: color 0.3s;
 }
 footer div p {
 	margin:0;
