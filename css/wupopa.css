@@ -9,29 +9,6 @@
 	clear:both;
 }
 
-.menu::after{
-	content:"";
-	display:block;
-	position:absolute;
-	left:50%;
-	bottom:1px;
-	width:5px;
-	height:5px;
-	border-radius:50%;
-	background-color:#ffd369;
-}
-
-.show::after{
-	content:"";
-	display:none;
-	position:absolute;
-	left:50%;
-	bottom:1px;
-	width:5px;
-	height:5px;
-	border-radius:50%;
-	background-color:#ffd369;
-}
 
 header {
 	background-color:#263f44;
